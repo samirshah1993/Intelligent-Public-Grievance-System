@@ -51,8 +51,8 @@ def getConnection():
 
 
 
-def getUserSatisfaction():
-	#if totalvotes >
+def getUserSatisfaction(I_Id):
+	#(Select V_Author FROM Votes WHERE V_IssueId = I_Id)  
 	#
 
 def getMap():
@@ -70,6 +70,4 @@ def setI_Visible(I_Id, U_Id, I_Author):
 
 def isI_Visible( an array of I_Id):
 	# return true if visible else return false
-
-
 
